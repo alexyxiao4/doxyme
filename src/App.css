@@ -1,38 +1,35 @@
 .App {
   text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 8fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 6fr;
+  grid-template-areas:
+    ". header ."
+    ". input clear"
+    ". price ."
+    ". chart .";
+  max-height: 100%;
+  max-width: 100%;
+  background: hsl(240, 15%, 77%);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header-1 {
+  grid-area: header;
+  color: hsl(0, 3%, 25%);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.input-1 {
+  grid-area: input;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.empty-button {
+  grid-area: clear;
 }
 
-.App-link {
-  color: #61dafb;
+.chart-placement {
+  grid-area: chart;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.price {
+  grid-area: price;
 }
