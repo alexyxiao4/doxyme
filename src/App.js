@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import './App.css';
-import { Stock } from "./Stock";
+import { Stock } from "./Components/Stock";
 
 function App() {
   const[search, setSearch] = useState("NFLX");
