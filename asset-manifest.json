@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/doxyme/static/css/main.5e3c53b6.chunk.css",
+    "main.js": "/doxyme/static/js/main.0748f69a.chunk.js",
+    "main.js.map": "/doxyme/static/js/main.0748f69a.chunk.js.map",
+    "runtime-main.js": "/doxyme/static/js/runtime-main.28baa1f0.js",
+    "runtime-main.js.map": "/doxyme/static/js/runtime-main.28baa1f0.js.map",
+    "static/js/2.0041b1c3.chunk.js": "/doxyme/static/js/2.0041b1c3.chunk.js",
+    "static/js/2.0041b1c3.chunk.js.map": "/doxyme/static/js/2.0041b1c3.chunk.js.map",
+    "static/js/3.d0c29ce9.chunk.js": "/doxyme/static/js/3.d0c29ce9.chunk.js",
+    "static/js/3.d0c29ce9.chunk.js.map": "/doxyme/static/js/3.d0c29ce9.chunk.js.map",
+    "index.html": "/doxyme/index.html",
+    "static/css/main.5e3c53b6.chunk.css.map": "/doxyme/static/css/main.5e3c53b6.chunk.css.map",
+    "static/js/2.0041b1c3.chunk.js.LICENSE.txt": "/doxyme/static/js/2.0041b1c3.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.28baa1f0.js",
+    "static/js/2.0041b1c3.chunk.js",
+    "static/css/main.5e3c53b6.chunk.css",
+    "static/js/main.0748f69a.chunk.js"
+  ]
+}
